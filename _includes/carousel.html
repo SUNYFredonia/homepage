@@ -14,7 +14,6 @@
 		
 		<!-- there are two loops because the first slide's class must be active -->
 			{% for post in site.categories.slide limit:1 %}
-			{% if post.published == true %}
 			<div class="item active">
 				<img src="{{ post.imageUrl }}" alt="{{ post.title }}">
 				<div class="container">
@@ -33,10 +32,8 @@
 					{% endif %}
 				</div><!-- container -->
 			</div><!-- item -->
-			{% endif %}
 			{% endfor %}
 			{% for post in site.categories.slide offset:1 %}
-			{% if post.published == true %}
 			<div class="item">
 				<img src="{{ post.imageUrl }}" alt="{{ post.title }}">
 				<div class="container">
@@ -55,7 +52,6 @@
 					{% endif %}
 				</div><!-- container -->
 			</div><!-- item -->
-			{% endif %}
 			{% endfor %}
 		</div><!-- carousel-inner -->
 			<a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
