@@ -2,8 +2,8 @@
 categories: box
 layout: post
 published: true
-title: Sherri Mason on NPR
+title: Sherri Mason on Al Jazeera
 imageUrl: "https://dl.dropboxusercontent.com/u/64133716/Homepage/Boxes/sherri_mason.jpg"
-link: "http://www.npr.org/2014/05/21/313157701/why-those-tiny-microbeads-in-soap-may-pose-problem-for-great-lakes"
+link: "http://america.aljazeera.com/watch/shows/live-news/2014/6/microbeads-from-householdproductsfoundingreatlakes.html"
 ---
 
