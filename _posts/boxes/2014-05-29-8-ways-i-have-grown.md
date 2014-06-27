@@ -1,7 +1,7 @@
 ---
 categories: box
 layout: post
-published: true
+published: false
 title: 8 Ways I Have Grown
 link: "https://medium.com/@jeckl/8-ways-i-have-grown-over-the-past-four-years-faedde76973e"
 ---
