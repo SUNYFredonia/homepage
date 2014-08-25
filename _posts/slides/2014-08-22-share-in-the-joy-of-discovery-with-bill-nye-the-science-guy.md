@@ -2,7 +2,7 @@
 categories: slide
 layout: post
 published: true
-title: "Share in "
+title: "Share in the \"Joy of Discovery\" with Bill Nye \"The Science Guy\""
 caption: true
 link: "http://www.fredonia.edu/tickets/"
 imageUrl: "https://dl.dropboxusercontent.com/u/64133716/Homepage/Slides/bill_nye.jpg"
