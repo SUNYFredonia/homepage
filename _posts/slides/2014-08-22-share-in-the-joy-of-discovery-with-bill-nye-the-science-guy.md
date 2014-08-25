@@ -1,7 +1,7 @@
 ---
 categories: slide
 layout: post
-published: false
+published: true
 title: "Share in \"The Joy of Discovery\" with Bill Nye \"The Science Guy\""
 caption: true
 link: "http://www.fredonia.edu/tickets/"
