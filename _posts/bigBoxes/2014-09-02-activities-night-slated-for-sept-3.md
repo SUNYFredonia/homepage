@@ -7,6 +7,6 @@ link: "http://www.fredonia.edu/news/ArchivesSearch/tabid/1101/ctl/edit/mid/1878/
 imageUrl: "http://www.fredonia.edu/news/Portals/17/2014%20Fall/1_Activities-Night-for-homepage.jpg"
 ---
 
-## A New Post
+
 
 
