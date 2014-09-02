@@ -8,4 +8,4 @@ link: "http://www.fredonia.edu/news/ArchivesSearch/tabid/1101/ctl/ArticleView/mi
 imageUrl: "https://dl.dropboxusercontent.com/u/64133716/Homepage/Slides/bill_nye.jpg"
 ---
 
-Thursday, Sept. 18, 3:30 p.m., King Concert Hall. Free and open to the public -- but tickets are required. Nye's appearance is currently sold out, although the [Ticket Office has begun a waiting list](www.fredonia.edu/tickets). Overflow space will be announced in the coming days.
+Thursday, Sept. 18, at 3:30 p.m. -- **now in the Steele Hall Fieldhouse.** Free and open to the public, but tickets are required. _Additional tickets will be released_ starting Thursday, Sept. 4 at 9 a.m. in the Campus Ticket Office. Read more>>
