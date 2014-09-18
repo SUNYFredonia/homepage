@@ -8,4 +8,4 @@ link: "http://www.fredonia.edu/news/ArchivesSearch/tabid/1101/ctl/ArticleView/mi
 imageUrl: "https://dl.dropboxusercontent.com/u/64133716/Homepage/Slides/bill_nye.jpg"
 ---
 
-Come hear Bill Nye, "The Science Guy," today -- for FREE! At 3:30 p.m. in the Steele Hall Fieldhouse. Doors open at 2:30 p.m.
+All tickets available to see Bill Nye, "The Science Guy," have been distributed. Doors will open at 2:30 p.m. for the 3:30 p.m. lecture in the Steele Hall Fieldhouse.
