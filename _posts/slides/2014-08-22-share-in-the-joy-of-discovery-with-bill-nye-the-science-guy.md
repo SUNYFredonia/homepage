@@ -1,7 +1,7 @@
 ---
 categories: slide
 layout: post
-published: true
+published: false
 title: "Today is the day!"
 caption: true
 link: "http://www.fredonia.edu/news/ArchivesSearch/tabid/1101/ctl/ArticleView/mid/1878/articleId/4918/Excitement_high_for_Bill_Nye_visit_tickets_sold_out_in_four_hours.aspx"
