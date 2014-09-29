@@ -4,7 +4,7 @@ layout: post
 published: true
 title: Transform
 caption: false
-imageUrl: "https://www.dropbox.com/s/wdr0lizg0amioph/transform_1600.jpg"
+imageUrl: "http://www.fredonia.edu/_slideshow/slides/transform_1600.jpg"
 ---
 
 Transform
