@@ -88,7 +88,15 @@
           				<li><a href="http://fredapps.fredonia.edu/">All FREDapps</a></li>
         			</ul>
       			</li>
-      			<li><a href="#searchbox" id="searchlink" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"><span class="fa fa-search"></span></a></li>
+      			<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-search"></span> <b class="caret"></b></a>
+        			<ul class="dropdown-menu">
+        				<li>
+							<form action="/pages/search.html" method="get" id="topsearch">
+      						<input type="text" name="q" class="span10" autocomplete="on" placeholder="Search here" />
+    						</form>
+    					</li>
+        			</ul>
+      			</li>
     		</ul>
     	</div><!-- collapse navbar-collapse -->
 	</div><!-- container -->
@@ -101,9 +109,7 @@
 	<script async src="https://d36hc0p18k1aoc.cloudfront.net/public/js/modules/tintembed.js"></script><div class="tintup" data-id="sunyfredoniapr/twitter" data-columns="" data-expand="true" style="height:800px;width:100%;"><a href="http://www.tintup.com/blog/the-best-facebook-widget" style="width:118px;height:31px;background-image:url(//d33w9bm0n1egwm.cloudfront.net/assets/logos/poweredbytintsmall.png);position:absolute;bottom:10px;right: 20px;text-indent: -9999px;z-index:9;">facebook widget</a></div>
 </div>
 
-
 <!-- Search -->
-
 <a name="searchbox" id="searchboxa"></a>
 <div class="search">
   <div class="container">
@@ -171,7 +177,7 @@ Fredonia, NY 14063<br>
 <p><a href="http://fredonia.interviewexchange.com">Employment</a></p>
 <p><a href="http://www.fredonia.edu/humanresources/">Human Resources</a></p>
 <p><a href="http://fsa.fredonia.edu">FSA</a></p>
-<p><a href="http://www.fredonia.edu/pr/">Public Relations</a></p>
+<p><a href="http://www.fredonia.edu/pr/">Marketing &amp; Communications</a></p>
 <p><a href="http://incubator.fredonia.edu/">Technology Incubator</a></p>
 <p><a href="http://www.fredonia.edu/trademark-licensing/">Trademark &amp; Licensing</a></p>
 <p><a href="http://www.fredonia.edu/siteindex/">A-Z Index</a></p>
@@ -277,7 +283,7 @@ Fredonia, NY 14063<br>
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-3356362-1', 'fredonia.edu');
+  ga('create', 'UA-3356362-16', 'auto');
   ga('send', 'pageview');
 
 </script>

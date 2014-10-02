@@ -88,7 +88,15 @@
           				<li><a href="http://fredapps.fredonia.edu/">All FREDapps</a></li>
         			</ul>
       			</li>
-      			<li><a href="#searchbox" id="searchlink" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"><span class="fa fa-search"></span></a></li>
+      			<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-search"></span> <b class="caret"></b></a>
+        			<ul class="dropdown-menu">
+        				<li>
+							<form action="/pages/search.html" method="get" id="topsearch">
+      						<input type="text" name="q" class="span10" autocomplete="on" placeholder="Search here" />
+    						</form>
+    					</li>
+        			</ul>
+      			</li>
     		</ul>
     	</div><!-- collapse navbar-collapse -->
 	</div><!-- container -->
@@ -135,12 +143,12 @@
 <!-- INTERNATIONAL -->
 	<div class="row">
 		<div class="col-md-3">
-			<a href="http://www.fredonia.edu/internationaleducation/iss/"><img src="http://www.fredonia.edu/admissions/images/landing/international.jpg" alt="..." class="img-thumbnail img-responsive"></a>
+			<a href="http://www.fredonia.edu/internationaleducation/"><img src="http://www.fredonia.edu/admissions/images/landing/international.jpg" alt="..." class="img-thumbnail img-responsive"></a>
 		</div><!-- col-md-3 -->
 		<div class="col-md-9">
-		<a href="http://www.fredonia.edu/internationaleducation/iss/"><h3>International Students</h3></a>
+		<a href="http://www.fredonia.edu/internationaleducation/"><h3>International Students</h3></a>
 		<p>International Students from all over the globe choose Fredonia for its high quality education, affordable price, private college-style campus, and friendly people. Students recognize the value of small classes and big opportunities to conduct research with fellow students and professors. Furthermore, they know the personal and professional connections they make here will lead them to a successful future.</p>
-		<a href="http://www.fredonia.edu/internationaleducation/iss/"><p class="pull-right">More info...</p></a>
+		<a href="http://www.fredonia.edu/internationaleducation/"><p class="pull-right">More info...</p></a>
 		</div><!-- col-md-9 -->
 	</div><!-- row -->
 
@@ -175,9 +183,7 @@
 </div><!-- container -->
 
 
-
 <!-- Search -->
-
 <a name="searchbox" id="searchboxa"></a>
 <div class="search">
   <div class="container">
@@ -245,7 +251,7 @@ Fredonia, NY 14063<br>
 <p><a href="http://fredonia.interviewexchange.com">Employment</a></p>
 <p><a href="http://www.fredonia.edu/humanresources/">Human Resources</a></p>
 <p><a href="http://fsa.fredonia.edu">FSA</a></p>
-<p><a href="http://www.fredonia.edu/pr/">Public Relations</a></p>
+<p><a href="http://www.fredonia.edu/pr/">Marketing &amp; Communications</a></p>
 <p><a href="http://incubator.fredonia.edu/">Technology Incubator</a></p>
 <p><a href="http://www.fredonia.edu/trademark-licensing/">Trademark &amp; Licensing</a></p>
 <p><a href="http://www.fredonia.edu/siteindex/">A-Z Index</a></p>
@@ -351,7 +357,7 @@ Fredonia, NY 14063<br>
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-3356362-1', 'fredonia.edu');
+  ga('create', 'UA-3356362-16', 'auto');
   ga('send', 'pageview');
 
 </script>

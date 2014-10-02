@@ -88,7 +88,15 @@
           				<li><a href="http://fredapps.fredonia.edu/">All FREDapps</a></li>
         			</ul>
       			</li>
-      			<li><a href="#searchbox" id="searchlink" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"><span class="fa fa-search"></span></a></li>
+      			<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-search"></span> <b class="caret"></b></a>
+        			<ul class="dropdown-menu">
+        				<li>
+							<form action="/pages/search.html" method="get" id="topsearch">
+      						<input type="text" name="q" class="span10" autocomplete="on" placeholder="Search here" />
+    						</form>
+    					</li>
+        			</ul>
+      			</li>
     		</ul>
     	</div><!-- collapse navbar-collapse -->
 	</div><!-- container -->
@@ -467,9 +475,7 @@
 </div><!-- container -->
 
 
-
 <!-- Search -->
-
 <a name="searchbox" id="searchboxa"></a>
 <div class="search">
   <div class="container">
@@ -537,7 +543,7 @@ Fredonia, NY 14063<br>
 <p><a href="http://fredonia.interviewexchange.com">Employment</a></p>
 <p><a href="http://www.fredonia.edu/humanresources/">Human Resources</a></p>
 <p><a href="http://fsa.fredonia.edu">FSA</a></p>
-<p><a href="http://www.fredonia.edu/pr/">Public Relations</a></p>
+<p><a href="http://www.fredonia.edu/pr/">Marketing &amp; Communications</a></p>
 <p><a href="http://incubator.fredonia.edu/">Technology Incubator</a></p>
 <p><a href="http://www.fredonia.edu/trademark-licensing/">Trademark &amp; Licensing</a></p>
 <p><a href="http://www.fredonia.edu/siteindex/">A-Z Index</a></p>
@@ -643,7 +649,7 @@ Fredonia, NY 14063<br>
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-3356362-1', 'fredonia.edu');
+  ga('create', 'UA-3356362-16', 'auto');
   ga('send', 'pageview');
 
 </script>
