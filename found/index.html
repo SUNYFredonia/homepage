@@ -14,9 +14,9 @@ title: You've Found Fredonia
 				</div><!-- fitvid -->
 			</div><!-- col-md-8 -->
 			<div class="col-md-4">
-				<h3>You've found Fredonia</h3>
+				<h2>You've found Fredonia</h2>
 				<p class="lead">Transform, evolve, change the world! Become a part of the Fredonia story.</p>
-				<a href="http://www.fredonia.edu/admissions/"><button type="button" class="btn btn-primary">Get in touch with Admissions</button></a>
+				<a href="http://www.fredonia.edu/admissions/"><button type="button" class="btn btn-primary">Get in touch with our admissions team</button></a>
 			</div><!-- col-md-4 -->
 		</div><!-- row -->
 		
@@ -25,14 +25,14 @@ title: You've Found Fredonia
 
 <div class="container">
 	<!-- TRANFSFORM -->
-	<h1>Transform <small>every day at Fredonia</small></h1>
+	<h1>Transform <small>Grow every day at Fredonia</small></h1>
 	<div class="grid">
 		<div class="row">
 		
 			<!-- TRANSFORM #1 -->
 			<div class="col-md-4">
 				<div class="box">
-				{% for post in site.categories.box limit:1 offset:1 %}
+				{% for post in site.categories.box limit:1 offset:0 %}
 				{% if post.imageUrl %}
 				<a href="{{ post.link }}"><img src="{{ post.imageUrl }}">
 					<div class="boxoverlay"><span>{{ post.title }} <small><span class="fa fa-arrow-circle-o-right"></span></small></span></div>
@@ -84,7 +84,7 @@ title: You've Found Fredonia
 	</div><!-- grid -->
 	
 	<!-- EVOLVE -->
-	<h1>Evolve <small>to become the best you possible</small></h1>
+	<h1>Evolve <small>Become better at your passions while finding new ones</small></h1>
 	<div class="grid">
 		<div class="row">
 		
@@ -143,7 +143,7 @@ title: You've Found Fredonia
 	</div><!-- grid -->
 	
 	<!-- CHANGE THE WORLD -->
-	<h1>Change the world <small>You want a degree that enables you to make a difference</small></h1>
+	<h1>Change the world <small>Find a degree that enables you to make a difference</small></h1>
 	<div class="grid">
 		<div class="row">
 		
@@ -202,3 +202,5 @@ title: You've Found Fredonia
 	</div><!-- grid -->
 
 </div><!-- container -->
+
+{% include mission.html %}
