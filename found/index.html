@@ -2,11 +2,203 @@
 layout: page
 title: You've Found Fredonia
 ---
-<div style="height:80px;">
-</div><!-- buffer -->
+
+<div class="mission">
+	<div style="height:80px;">
+	</div><!-- buffer -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<div class="fitvid">
+					<iframe width="560" height="315" src="//www.youtube.com/embed/wsX1wsC2iy0" frameborder="0" allowfullscreen></iframe>
+				</div><!-- fitvid -->
+			</div><!-- col-md-8 -->
+			<div class="col-md-4">
+				<h3>You've found Fredonia</h3>
+				<p class="lead">Transform, evolve, change the world! Become a part of the Fredonia story.</p>
+				<a href="http://www.fredonia.edu/admissions/"><button type="button" class="btn btn-primary">Get in touch with Admissions</button></a>
+			</div><!-- col-md-4 -->
+		</div><!-- row -->
+		
+	</div><!-- container -->
+</div><!-- mission -->
+
 <div class="container">
-	<h1 class="center-block">You've found Fredonia</h1>
-	<div class="fitvid">
-		<iframe width="560" height="315" src="//www.youtube.com/embed/wsX1wsC2iy0" frameborder="0" allowfullscreen></iframe>
-	</div>
+	<!-- TRANFSFORM -->
+	<h1>Transform <small>every day at Fredonia</small></h1>
+	<div class="grid">
+		<div class="row">
+		
+			<!-- TRANSFORM #1 -->
+			<div class="col-md-4">
+				<div class="box">
+				{% for post in site.categories.box limit:1 offset:1 %}
+				{% if post.imageUrl %}
+				<a href="{{ post.link }}"><img src="{{ post.imageUrl }}">
+					<div class="boxoverlay"><span>{{ post.title }} <small><span class="fa fa-arrow-circle-o-right"></span></small></span></div>
+				</a>
+				{% else %}
+				<a href="{{ post.link }}">
+				<div class="boxtype">{{ post.content }}</div>
+				</a>
+				{% endif %}
+				{% endfor %}
+				</div><!-- box -->
+			</div><!--"col-md-3"-->
+			
+			<!-- TRANSFORM #2 -->
+			<div class="col-md-4">
+				<div class="box">
+				{% for post in site.categories.box limit:1 offset:1 %}
+				{% if post.imageUrl %}
+				<a href="{{ post.link }}"><img src="{{ post.imageUrl }}">
+					<div class="boxoverlay"><span>{{ post.title }} <small><span class="fa fa-arrow-circle-o-right"></span></small></span></div>
+				</a>
+				{% else %}
+				<a href="{{ post.link }}">
+				<div class="boxtype">{{ post.content }}</div>
+				</a>
+				{% endif %}
+				{% endfor %}
+				</div><!-- box -->
+			</div><!--"col-md-3"-->
+			
+			<!-- TRANSFORM #3 -->
+			<div class="col-md-4">
+				<div class="box">
+				{% for post in site.categories.box limit:1 offset:2 %}
+				{% if post.imageUrl %}
+				<a href="{{ post.link }}"><img src="{{ post.imageUrl }}">
+					<div class="boxoverlay"><span>{{ post.title }} <small><span class="fa fa-arrow-circle-o-right"></span></small></span></div>
+				</a>
+				{% else %}
+				<a href="{{ post.link }}">
+				<div class="boxtype">{{ post.content }}</div>
+				</a>
+				{% endif %}
+				{% endfor %}
+				</div><!-- box -->
+			</div><!--"col-md-3"-->
+			
+		</div><!-- row -->
+	</div><!-- grid -->
+	
+	<!-- EVOLVE -->
+	<h1>Evolve <small>to become the best you possible</small></h1>
+	<div class="grid">
+		<div class="row">
+		
+			<!-- EVOLVE #1 -->
+			<div class="col-md-4">
+				<div class="box">
+				{% for post in site.categories.box limit:1 offset:3 %}
+				{% if post.imageUrl %}
+				<a href="{{ post.link }}"><img src="{{ post.imageUrl }}">
+					<div class="boxoverlay"><span>{{ post.title }} <small><span class="fa fa-arrow-circle-o-right"></span></small></span></div>
+				</a>
+				{% else %}
+				<a href="{{ post.link }}">
+				<div class="boxtype">{{ post.content }}</div>
+				</a>
+				{% endif %}
+				{% endfor %}
+				</div><!-- box -->
+			</div><!--"col-md-3"-->
+			
+			<!-- EVOLVE #2 -->
+			<div class="col-md-4">
+				<div class="box">
+				{% for post in site.categories.box limit:1 offset:4 %}
+				{% if post.imageUrl %}
+				<a href="{{ post.link }}"><img src="{{ post.imageUrl }}">
+					<div class="boxoverlay"><span>{{ post.title }} <small><span class="fa fa-arrow-circle-o-right"></span></small></span></div>
+				</a>
+				{% else %}
+				<a href="{{ post.link }}">
+				<div class="boxtype">{{ post.content }}</div>
+				</a>
+				{% endif %}
+				{% endfor %}
+				</div><!-- box -->
+			</div><!--"col-md-3"-->
+			
+			<!-- EVOLVE #3 -->
+			<div class="col-md-4">
+				<div class="box">
+				{% for post in site.categories.box limit:1 offset:5 %}
+				{% if post.imageUrl %}
+				<a href="{{ post.link }}"><img src="{{ post.imageUrl }}">
+					<div class="boxoverlay"><span>{{ post.title }} <small><span class="fa fa-arrow-circle-o-right"></span></small></span></div>
+				</a>
+				{% else %}
+				<a href="{{ post.link }}">
+				<div class="boxtype">{{ post.content }}</div>
+				</a>
+				{% endif %}
+				{% endfor %}
+				</div><!-- box -->
+			</div><!--"col-md-3"-->
+			
+		</div><!-- row -->
+	</div><!-- grid -->
+	
+	<!-- CHANGE THE WORLD -->
+	<h1>Change the world <small>You want a degree that enables you to make a difference</small></h1>
+	<div class="grid">
+		<div class="row">
+		
+			<!-- CHANGE THE WORLD #1 -->
+			<div class="col-md-4">
+				<div class="box">
+				{% for post in site.categories.box limit:1 offset:6 %}
+				{% if post.imageUrl %}
+				<a href="{{ post.link }}"><img src="{{ post.imageUrl }}">
+					<div class="boxoverlay"><span>{{ post.title }} <small><span class="fa fa-arrow-circle-o-right"></span></small></span></div>
+				</a>
+				{% else %}
+				<a href="{{ post.link }}">
+				<div class="boxtype">{{ post.content }}</div>
+				</a>
+				{% endif %}
+				{% endfor %}
+				</div><!-- box -->
+			</div><!--"col-md-3"-->
+			
+			<!-- CHANGE THE WORLD #2 -->
+			<div class="col-md-4">
+				<div class="box">
+				{% for post in site.categories.box limit:1 offset:7 %}
+				{% if post.imageUrl %}
+				<a href="{{ post.link }}"><img src="{{ post.imageUrl }}">
+					<div class="boxoverlay"><span>{{ post.title }} <small><span class="fa fa-arrow-circle-o-right"></span></small></span></div>
+				</a>
+				{% else %}
+				<a href="{{ post.link }}">
+				<div class="boxtype">{{ post.content }}</div>
+				</a>
+				{% endif %}
+				{% endfor %}
+				</div><!-- box -->
+			</div><!--"col-md-3"-->
+			
+			<!-- CHANGE THE WORLD #3 -->
+			<div class="col-md-4">
+				<div class="box">
+				{% for post in site.categories.box limit:1 offset:8 %}
+				{% if post.imageUrl %}
+				<a href="{{ post.link }}"><img src="{{ post.imageUrl }}">
+					<div class="boxoverlay"><span>{{ post.title }} <small><span class="fa fa-arrow-circle-o-right"></span></small></span></div>
+				</a>
+				{% else %}
+				<a href="{{ post.link }}">
+				<div class="boxtype">{{ post.content }}</div>
+				</a>
+				{% endif %}
+				{% endfor %}
+				</div><!-- box -->
+			</div><!--"col-md-3"-->
+			
+		</div><!-- row -->
+	</div><!-- grid -->
+
 </div><!-- container -->
