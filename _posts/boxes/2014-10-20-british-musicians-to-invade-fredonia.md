@@ -1,0 +1,9 @@
+---
+categories: box
+layout: post
+published: true
+title: British musicians to ‘invade’ Fredonia
+link: "http://www.fredonia.edu/news/ArchivesSearch/tabid/1101/ctl/ArticleView/mid/1878/articleId/5014/British_musicians_to_invade_Fredonia.aspx"
+---
+
+British musicians to ‘invade’ Fredonia
