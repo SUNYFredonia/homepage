@@ -1,7 +1,7 @@
 ---
 categories: slide
 layout: post
-published: true
+published: false
 title: Graduate School Fair
 caption: true
 imageUrl: "https://dl.dropboxusercontent.com/u/64133716/Homepage/Slides/graduatefair_1500.jpg"
