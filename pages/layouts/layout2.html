@@ -1,0 +1,130 @@
+---
+layout: default
+---
+<div class="topimage">
+	<img class="img-responsive" src="https://dl.dropboxusercontent.com/u/64133716/Homepage/Slides/flowertrees.jpg" />
+</div><!-- topimage -->
+
+<div class="container u-960">
+	<div class="row">
+		<div class="col-md-3">
+			
+			
+			<!-- INJECT SECTION NAV -->	
+			<ul>
+				<li><a href="/admissions/index.asp">Admissions Home</a></li>
+				<li><a href="/admissions/freshmen.asp">Freshmen</a></li>
+				<li><a href="/admissions/transfer.asp">Transfers</a></li>
+				<li><a href="/internationaleducation/">International Students</a></li>
+				<li><a href="/admissions/apply.asp">How to Apply</a>
+					<ul>
+					<li><a href="https://connect.fredonia.edu/yourconnection/twbkwbis.P_WWWLogin">Application Status</a></li>
+					<li><a href="/admissions/contact.asp">Contact Your Counselor</a></li>
+					</ul>
+				</li>
+				<li><a href="/admissions/visit.asp">Visit Us</a></li>
+				<li><a href="/finaid">Financial Aid</a></li>
+				<li><a href="/admissions/accepted.asp">Accepted Students</a>
+					<ul>
+					<li><a href="/admin/studentaccounts/payments.asp">Pay My Deposit</a></li>
+					<li><a href="/admissions/accepted.asp">Freshmen</a></li>
+					<li><a href="/admissions/accepted_transfers.asp">Transfers</a></li>
+					</ul>
+				</li>
+				<li><a href="/admin/studentaccounts/tuition.asp">Tuition &amp; Costs</a></li>
+				<li><a href="/admissions/counselors.asp">School Counselors</a></li>
+				<li><a href="/acadadv/fredonia4.asp">4-Year Guarantee</a></li>
+				<li><a href="/admissions/contact.asp">Contact Us</a></li>
+			</ul>
+			<!-- END INJECT SECTION NAV -->	
+			
+		</div><!-- col-md-3 -->
+		<div class="col-md-9">
+		
+		
+		
+			<!-- INJECT SECTION TITLE BODY -->	
+			<h1>Title</h1>
+			<p>Lorizzle mofo dolor sit amizzle, shiz adipiscing elit. Nullizzle brizzle velizzle, fo shizzle mah nizzle fo rizzle, mah home g-dizzle volutpat, suscipit quis, gravida vizzle, gangsta. Pellentesque phat its fo rizzle. Bizzle erizzle. Pimpin' at dolor dapibus turpis tempizzle tempizzle. Maurizzle shizzle my nizzle crocodizzle nibh et turpis. For sure izzle boom shackalack. Pellentesque crackalackin rhoncizzle nisi. In hizzle platea dictumst. Fo shizzle dapibus. Curabitur uhuh ... yih! urna, pretizzle eu, dope dawg, eleifend fo, nunc. Gizzle suscipizzle. Integizzle i saw beyonces tizzles and my pizzle went crizzle velit my shizz purizzle.</p>
+			<p>Etizzle a magna sizzle augue ghetto accumsizzle. Aenizzle nizzle shut the shizzle up. Away mauris dolizzle, viverra vitae, facilisizzle izzle, dope izzle, yippiyo. Fizzle ante ipsum fizzle izzle pimpin' orci nizzle izzle that's the shizzle own yo' cubilia Curae; Ma nizzle dolizzle. Fo shizzle faucibizzle. Maecenizzle pharetra blandit quizzle. The bizzle rutrizzle fo crazy. I saw beyonces tizzles and my pizzle went crizzle facilisizzle. Fo shizzle sizzle yo mamma, venenatizzle eu, scelerisque bling bling, blandizzle sure, magna.</p>
+			<!-- END INJECT SECTION TITLE BODY -->	
+		
+		</div><!-- col-md-9 -->
+	</div><!-- row -->
+	<div class="row">
+		<div class="col-md-6">
+		
+		
+		
+		
+		<!-- INJECT STORIES -->
+									<div class="grid">
+		
+									<!-- EVOLVE #1 -->
+									<div class="u-5pad">
+										<div class="box">
+										{% for post in site.tags.evolve limit:1 offset:0 %}
+										{% if post.imageUrl %}
+										<a href="{{ post.link }}"><img src="{{ post.imageUrl }}">
+											<div class="boxoverlay"><span>{{ post.title }} <small><span class="fa fa-arrow-circle-o-right"></span></small></span></div>
+										</a>
+										{% else %}
+										<a href="{{ post.link }}">
+										<div class="boxtype">{{ post.content }}</div>
+										</a>
+										{% endif %}
+										{% endfor %}
+										</div><!-- box -->
+									</div>
+			
+									<!-- EVOLVE #2 -->
+									<div class="u-5pad">
+										<div class="box">
+										{% for post in site.tags.evolve limit:1 offset:1 %}
+										{% if post.imageUrl %}
+										<a href="{{ post.link }}"><img src="{{ post.imageUrl }}">
+											<div class="boxoverlay"><span>{{ post.title }} <small><span class="fa fa-arrow-circle-o-right"></span></small></span></div>
+										</a>
+										{% else %}
+										<a href="{{ post.link }}">
+										<div class="boxtype">{{ post.content }}</div>
+										</a>
+										{% endif %}
+										{% endfor %}
+										</div><!-- box -->
+									</div>
+			
+									<!-- EVOLVE #3 -->
+									<div class="u-5pad">
+										<div class="box">
+										{% for post in site.tags.evolve limit:1 offset:2 %}
+										{% if post.imageUrl %}
+										<a href="{{ post.link }}"><img src="{{ post.imageUrl }}">
+											<div class="boxoverlay"><span>{{ post.title }} <small><span class="fa fa-arrow-circle-o-right"></span></small></span></div>
+										</a>
+										{% else %}
+										<a href="{{ post.link }}">
+										<div class="boxtype">{{ post.content }}</div>
+										</a>
+										{% endif %}
+										{% endfor %}
+										</div><!-- box -->
+									</div>
+							</div><!-- grid -->
+		<!-- INJECT STORIES -->
+		
+		
+		
+		</div><!-- col-md-6 -->
+		
+		
+		<div class="col-md-6">
+			<div class="row">
+				<h1>Stuff goes here. Add lots of stuff so that it fills this out.</h1>
+			</div><!-- row -->
+			<div class="row">
+				<h1>Stuff goes here. Add lots of stuff so that it fills this out.</h1>
+			</div><!-- row -->
+		</div><!-- col-md-6 -->
+	</div><!-- row -->
+</div><!-- container -->
