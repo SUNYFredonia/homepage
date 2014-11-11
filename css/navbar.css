@@ -75,6 +75,12 @@ background-color: rgba(0,56,168,1);
 .navbar {
 background-color: rgba(0,56,168,1);
 }
+
+/*Call this to make the navbar grey*/
+.navbar-fred-grey {
+background-color: #444444;
+}
+
 .navbar-brand img {
 height:50px;
 padding-bottom:10px;
